@@ -1,0 +1,19 @@
+.headerRight {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRight h4 {
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: 15px;
+    background-color: seagreen;
+}
+
+.headerRight span {
+    font-size: 0.8em;
+    color: #555;
+    background-color: red;
+}
