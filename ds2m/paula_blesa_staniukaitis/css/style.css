@@ -1,5 +1,4 @@
-
-.container{
+.container {
     position: relative;
     width: 1396px;
     max-width: 100%;
@@ -9,30 +8,28 @@
     display: flex;
 }
 
-.container .leftSide{
+.container .leftSide {
     position: relative;
     flex: 30%;
     background: white;
     border-right: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-.container .leftSideNone{
+.container .leftSideNone {
     display: none;
 }
 
-.container .rightSide{
+.container .rightSide {
     position: relative;
     flex: 70%;
     background: #e5ddd5;
 }
 
-.container .rightSideNone{
+.container .rightSideNone {
     display: none;
 }
 
-
-
-.userImg{
+.userImg {
     position: relative;
     width: 40px;
     height: 40px;
@@ -41,7 +38,7 @@
     cursor: pointer;
 }
 
-.cover{
+.cover {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,11 +47,11 @@
     object-fit: cover;
 }
 
-.nav_icons{
+.nav_icons {
     display: flex;
 }
 
-.nav_icons li{
+.nav_icons li {
     display: flex;
     list-style: none;
     cursor: pointer;
@@ -63,7 +60,7 @@
     margin-left: 22px;
 }
 
-.search_chat{
+.search_chat {
     position: relative;
     width: 100%;
     height: 50px;
@@ -74,11 +71,11 @@
     padding: 0 15px;
 }
 
-.search_chat div{
+.search_chat div {
     width: 100%;
 }
 
-.search_chat div input{
+.search_chat div input {
     width: 100%;
     outline: none;
     border: none;
@@ -90,24 +87,24 @@
     padding-left: 40px;
 }
 
-.search_chat div input::placeholder{
+.search_chat div input::placeholder {
     color: #bbb;
 }
 
-.search_chat div i{
+.search_chat div i {
     position: absolute;
     left: 30px;
     top: 14px;
     font-size: 1.2rem;
 }
 
-.chatlist{
+.chatlist {
     position: relative;
     height: calc(100% - 110px);
     overflow-y: auto;
 }
 
-.chatlist .block{
+.chatlist .block {
     position: relative;
     width: 100%;
     display: flex;
@@ -119,11 +116,11 @@
     border: 0;
 }
 
-.chatlist .block:hover{
+.chatlist .block:hover {
     background: rgb(228, 228, 228);
 }
 
-.chatlist .block .imgbx{
+.chatlist .block .imgbx {
     position: relative;
     width: 60px;
     height: 50px;
@@ -132,36 +129,43 @@
     margin-right: 10px;
 }
 
-.chatlist .block .details{
+.chatlist .block .details {
     position: relative;
     width: 100%;
 }
 
-.chatlist .block .details .listHead{
+.chatlist .block .details .listHead {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
 }
 
-.chatlist .block .details .listHead h4{
+.chatlist .block .details .listHead h4 {
     font-size: 1.1rem;
     font-weight: 600;
     color: #111;
 }
 
-.chatlist .block .details .listHead .time{
+.chatlist .block .details .listHead .time {
     font-size: 0.75rem;
     color: #aaa;
 }
 
 @media (max-width: 640px) {
-    .container .rightSide{
+    .container .rightSide {
         display: block;
         position: relative;
         background: #e5ddd5;
     }
-    
-    .invisible{
+    .invisible {
         display: none;
+    }
+    .fas.fa-chevron-left {
+        display: block;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        color: rgb(29, 29, 29);
+        transition: all .2s;
+        cursor: pointer;
     }
 }
