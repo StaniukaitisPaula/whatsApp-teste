@@ -1,4 +1,4 @@
-# WhatsPrise (Whatsapp Enterprise)
+# WhatsApp Clone
 ![SCREENSHOT](./img/print.png)
 ![SCREENSHOT_Mobile](./img/print_mobile.PNG)
 
