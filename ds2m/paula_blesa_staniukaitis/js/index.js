@@ -27,9 +27,7 @@ const criaContato = (contato) => {
     const name = document.createElement('h4')
     name.textContent = contato.name
 
-    const descricao = document.createElement('p')
-    descricao.classList.add('description')
-    descricao.textContent = contato.description
+
 
     const time = document.createElement('p')
     time.classList.add('time')
@@ -45,7 +43,7 @@ const criaContato = (contato) => {
         preview.textContent = contato.messages[cont].content.slice(0, 25) + "..."
     }
 
-    block.append(imgbx, detail,descricao)
+    block.append(imgbx, detail)
     imgbx.append(image)
     detail.append(listHead, previewMessage)
     listHead.append(name, time)
@@ -104,7 +102,7 @@ const criaConversa = (contato) => {
     const chatBox = document.createElement('div')
     chatBox.classList.add('chatbox')
 
-    contato.messages.forEach(function (mensagem) {
+    contato.messages.forEach(function(mensagem) {
         if (mensagem.sender == "me") {
             const myMessage = document.createElement('div')
             myMessage.classList.add("message", "my_message")
@@ -173,8 +171,8 @@ const loadContacts = () => {
     chatList.replaceChildren(...listaContatos)
 }
 
-const openConversation = function (nomeContato) {
-    contatos.forEach(function (contato) {
+const openConversation = function(nomeContato) {
+    contatos.forEach(function(contato) {
         if (contato.name == nomeContato) {
             const container = document.getElementById('container')
             const rightSide = document.getElementById('rightSide')
@@ -186,13 +184,13 @@ const openConversation = function (nomeContato) {
     })
 }
 
-const clear = function () {
-            const rightSide = document.getElementById('rightSide')
+const clear = function() {
+    const rightSide = document.getElementById('rightSide')
 
-            rightSide.classList.remove('rightSide')
-            rightSide.classList.add('rightSideNone')
+    rightSide.classList.remove('rightSide')
+    rightSide.classList.add('rightSideNone')
 
-            leftSide.classList.remove('invisible')
+    leftSide.classList.remove('invisible')
 }
 
 loadContacts()

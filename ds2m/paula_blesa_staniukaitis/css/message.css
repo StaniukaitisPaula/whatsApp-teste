@@ -1,38 +1,38 @@
-
-.message_p{
+.message_p {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.message_p p{
+.message_p p {
     color: #aaa;
-    display: -webkit-box; -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
     font-size: 0.9rem;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.imgText{
+.imgText {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imgText h4{
+.imgText h4 {
     font-weight: 500;
     line-height: 1.2rem;
     margin-left: 15px;
 }
 
-.imgText h4 span{
-    font-size:0.8rem;
+.imgText h4 span {
+    font-size: 0.8rem;
     color: #555;
 }
 
-.chatbox{
+.chatbox {
     position: relative;
     width: 100%;
     height: calc(100% - 120px);
@@ -40,14 +40,14 @@
     overflow-y: auto;
 }
 
-.message{
+.message {
     position: relative;
     display: flex;
     width: 100%;
     margin: 5px 0;
 }
 
-.message p{
+.message p {
     position: relative;
     right: 0;
     text-align: right;
@@ -58,7 +58,7 @@
     font-size: 0.9rem;
 }
 
-.message p::before{
+.message p::before {
     content: '';
     position: absolute;
     top: 0;
@@ -68,27 +68,27 @@
     background: linear-gradient(135deg, #dcf8c6 0%, #dcf8c6 50%, transparent 50%, transparent);
 }
 
-.message p span{
+.message p span {
     display: block;
     margin-top: 5px;
     font-size: 0.85rem;
     opacity: 0.5;
 }
 
-.my_message{
+.my_message {
     justify-content: flex-end;
 }
 
-.friend_message{
-   justify-content: flex-start; 
+.friend_message {
+    justify-content: flex-start;
 }
 
-.friend_message p{
+.friend_message p {
     background-color: #fff;
     text-align: left;
- }
+}
 
- .message.friend_message p::before{
+.message.friend_message p::before {
     content: '';
     position: absolute;
     top: 0;
@@ -98,7 +98,7 @@
     background: linear-gradient(225deg, #fff 0%, #fff 50%, transparent 50%, transparent);
 }
 
-.chatbox_input{
+.chatbox_input {
     position: relative;
     width: 100%;
     height: 60px;
@@ -109,17 +109,17 @@
     display: flex;
 }
 
-.chatbox_input i{
+.chatbox_input i {
     cursor: pointer;
     font-size: 1.8rem;
     color: #51585c;
 }
 
-.chatbox_input i:nth-child(1){
+.chatbox_input i:nth-child(1) {
     margin-right: 15px;
 }
 
-.chatbox_input input{
+.chatbox_input input {
     position: relative;
     width: 90%;
     margin: 0 20px;
@@ -130,11 +130,19 @@
     font-size: 1rem;
 }
 
-.fas.fa-chevron-left{
+.fas.fa-chevron-left {
     display: none;
 }
 
-.backButton:hover .fas.fa-chevron-left{
+.backButton:hover .fas.fa-chevron-left {
     color: #009688;
 }
 
+.fas.fa-chevron-left {
+    display: block;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: rgb(29, 29, 29);
+    transition: all .2s;
+    cursor: pointer;
+}

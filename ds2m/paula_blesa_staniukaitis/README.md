@@ -5,7 +5,7 @@
 ---
 
 ## Sobre
-Site feito para ser uma cópia do Whatsapp Web para uma empresa que necessitava de uma forma de se comunicar.
+Site feito  para desenvolver a interface do usuário de um projeto de chat interno para uma empresa. A empresa decidiu que a interface deverá ser um clone do WhatsApp, pois a grande maioria dos funcionários já está acostumada a utilizá-lo em seu dia a dia.
 
 O objetivo deste projeto é colocar em prática os conhecimentos adquiridos em aula no curso de Desenvolvimento de Sistemas do [SENAI Jandira](https://jandira.sp.senai.br/).
 
@@ -20,11 +20,11 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos em a
 
 ---
 ## Autor
-- [Lohannes da Silva Costa](https://github.com/Lohannn)
+- [Paula Blesa Staniukaitis](https://github.com/StaniukaitisPaula)
 
 ---
 ## Links
-- [Github](https://lohannn.github.io/whatsApp-senai-1-2023/ds2t/lohannes_da_silva_costa/index.html)
+- [Github](https://github.com/StaniukaitisPaula/whatsApp-senai-1-2023)
 
 # Critérios de Avaliação
 - [x] `Codificou o app conforme o original?`
