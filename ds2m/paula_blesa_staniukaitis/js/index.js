@@ -7,7 +7,6 @@ const leftSide = document.getElementById('leftSide')
 const criaContato = (contato) => {
     const block = document.createElement('button')
     block.classList.add('block')
-    block.id = 'block'
     block.setAttribute('type', 'button')
     block.setAttribute('name', contato.name)
 

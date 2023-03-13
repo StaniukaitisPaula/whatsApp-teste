@@ -1,6 +1,6 @@
 # WhatsApp Clone
-![SCREENSHOT](./img/print.png)
-![SCREENSHOT_Mobile](./img/print_mobile.PNG)
+![SCREENSHOT](./img/desktop.png)
+![SCREENSHOT_Mobile](./img/mobile.png)
 
 ---
 
@@ -11,11 +11,9 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos em a
 
 ---
 ## Tecnologias utilizadas
-- Figma
 - HTML5
 - CSS3
 - JS
-- Markdown
 - JSON
 
 ---
